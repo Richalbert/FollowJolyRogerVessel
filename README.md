@@ -25,7 +25,9 @@ Test sur une API en temps reel de tracking de bateau via AIS
 - Navigate to the python directory: `cd example/python`
 - Create Virtual Environment: `python -m venv .venv`
 - Activate Virtuel Environment: `.venv\Scripts\activate`
-- creation du fichier requirements.txt a partir du fichier setup.py
-- `pip install -r requirements.txt`
+- Install packages du setup.py
+  - `pip install websockets`
+  - `pip install asyncio` 
+- `pip freeze > requirements.txt`
 - Replace "<YOUR API KEY>" in the main.py file with your AISStream API key
 - Run the example: `python main.py`
