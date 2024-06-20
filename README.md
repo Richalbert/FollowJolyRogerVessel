@@ -29,5 +29,5 @@ Test sur une API en temps reel de tracking de bateau via AIS
   - `pip install websockets`
   - `pip install asyncio` 
 - `pip freeze > requirements.txt`
-- Replace "<YOUR API KEY>" in the main.py file with your AISStream API key
+- Replace **YOUR API KEY** in the main.py file with your AISStream API key
 - Run the example: `python main.py`
